@@ -83,6 +83,9 @@ src/
 │   ├── cache/       # KV 缓存服务
 │   ├── config/      # 博客配置
 │   ├── friend-links/# 友情链接（申请、审核）
+│   ├── import-export/# Markdown 导入导出
+│   ├── version/     # 版本更新检查
+│   ├── theme/       # 主题系统（契约、注册表、各主题实现）
 │   └── ai/          # Workers AI 集成
 ├── routes/
 │   ├── _public/     # 公开页面（首页、文章列表/详情、搜索）

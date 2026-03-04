@@ -19,9 +19,14 @@ cd flare-stack-blog
 # 安装依赖
 bun install
 
-# 配置本地环境变量
-cp .dev.vars.example .dev.vars
-# 编辑 .dev.vars 填入必要的配置
+# 配置环境变量
+cp .env.example .env            # 客户端变量
+cp .dev.vars.example .dev.vars  # 服务端变量
+# 编辑 .env 和 .dev.vars 填入必要的配置
+
+# 配置 Wrangler
+cp wrangler.example.jsonc wrangler.jsonc
+# 编辑 wrangler.jsonc，填入你的资源 ID
 
 # 启动开发服务器
 bun dev
